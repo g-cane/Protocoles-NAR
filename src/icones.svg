@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <!-- Pictogrammes dessinés pour l'application : les deux grandes entrées. -->
+
+  <!-- Réanimation : moniteur de surveillance avec tracé ECG -->
+  <symbol id="i-rea" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect class="tint" x="5" y="7" width="38" height="27" rx="5.500"/>
+    <path d="M10.500 21.500h5.500l2.800-6.500 4.700 12.500 3.700-8.500 1.800 2.500h8.500"/>
+    <path d="M24 34v6.500"/>
+    <path d="M15.500 41h17"/>
+  </symbol>
+
+  <!-- Anesthésie : laryngoscope (manche et lame courbe de Macintosh) -->
+  <symbol id="i-anesth" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <rect class="tint" x="8" y="4.500" width="11" height="24" rx="5"/>
+    <path d="M12 11.500h3M12 15.500h3M12 19.500h3"/>
+    <path d="M10.500 28.500v4.500c0 1 .8 1.800 1.800 1.800H20c9 0 16 2.500 21 8.700"/>
+    <path d="M16.500 28.500v1.500h5c8.500 0 15 2.800 19.500 8"/>
+  </symbol>
+</svg>

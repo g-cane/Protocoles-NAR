@@ -1,0 +1,15 @@
+{
+  "name": "protocoles-nar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Application web des protocoles médicaux de neuro-anesthésie-réanimation",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "serve": "npx --yes serve docs -l 4173"
+  },
+  "devDependencies": {
+    "lucide-static": "^0.460.0",
+    "marked": "^14.1.0"
+  }
+}

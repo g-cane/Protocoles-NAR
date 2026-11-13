@@ -1,0 +1,29 @@
+{
+  "name": "Protocoles NAR",
+  "short_name": "Protocoles NAR",
+  "description": "Protocoles médicaux de neuro-anesthésie-réanimation",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0e141b",
+  "theme_color": "#0e141b",
+  "icons": [
+    {
+      "src": "icone-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icone-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icone.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

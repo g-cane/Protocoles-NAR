@@ -1,0 +1,36 @@
+<div class="app" id="app">
+  <header class="bar">
+    <div class="bar-in">
+      <a class="bar-btn" id="nav-back" href="#accueil" aria-label="Accueil"><svg class="ic" aria-hidden="true"><use href="#i-house"/></svg></a>
+      <form class="search" id="search-form" role="search" autocomplete="off">
+        <svg class="ic" aria-hidden="true"><use href="#i-search"/></svg>
+        <input id="q" type="search" inputmode="search" enterkeyhint="search" placeholder="Rechercher : milrinone, INR, jeûne…" aria-label="Rechercher dans les protocoles" autocomplete="off" autocapitalize="off" spellcheck="false">
+        <button type="button" class="search-clear" id="q-clear" aria-label="Effacer la recherche" hidden><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button>
+      </form>
+      <button type="button" class="bar-btn" id="theme" aria-label="Changer de thème clair / sombre"><svg class="ic" aria-hidden="true"><use id="theme-ic" href="#i-moon"/></svg></button>
+    </div>
+  </header>
+
+  <main id="vue" class="vue" tabindex="-1"></main>
+
+  <footer class="pied">
+    <p id="pied-preambule"></p>
+    <p class="pied-meta" id="pied-meta"></p>
+  </footer>
+</div>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Image agrandie">
+  <div class="lb-bar">
+    <div class="lb-titre" id="lb-titre"></div>
+    <div class="lb-actions">
+      <button type="button" class="lb-btn" id="lb-prev" aria-label="Page précédente" hidden><svg class="ic" aria-hidden="true"><use href="#i-arrow-left"/></svg></button>
+      <button type="button" class="lb-btn" id="lb-next" aria-label="Page suivante" hidden><svg class="ic" aria-hidden="true"><use href="#i-chevron-right"/></svg></button>
+      <button type="button" class="lb-btn" id="lb-moins" aria-label="Réduire"><svg class="ic" aria-hidden="true"><use href="#i-zoom-out"/></svg></button>
+      <button type="button" class="lb-btn" id="lb-plus" aria-label="Agrandir"><svg class="ic" aria-hidden="true"><use href="#i-zoom-in"/></svg></button>
+      <button type="button" class="lb-btn lb-fermer" id="lb-fermer" aria-label="Fermer"><svg class="ic" aria-hidden="true"><use href="#i-x"/></svg></button>
+    </div>
+  </div>
+  <div class="lb-scroll" id="lb-scroll"><img id="lb-img" alt=""></div>
+</div>
+
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
